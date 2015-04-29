@@ -1,0 +1,2 @@
+/* ----- Prevents iphone from resizing in landscap mode -----*/
+html {-webkit-text-size-adjust: none;}
