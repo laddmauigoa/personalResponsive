@@ -1,0 +1,20 @@
+@media only screen and (min-width: 1141px) {
+
+	header, nav, .row, footer {
+		max-width: 1140px;
+		margin: 0 auto;
+
+	}
+
+	nav ul li a {
+		transition: background .3s linear;
+	}
+
+	nav ul li a:hover {
+		background-color: rgba(0,0,0,0.4)
+	}
+
+	h1 {
+	color: silver;
+}
+}
