@@ -1,5 +1,12 @@
 @media only screen and (min-width: 641px) {
 
+#banner {
+	background-image: url(../images/hero-tablet.jpg);
+	background-repeat: no-repeat;
+	background-color: #fff;
+	height: 200px;
+}
+
 /*---- NAVIGATION STUFF HERE -----*/
 #navWrapper {padding: 0;}
 

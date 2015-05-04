@@ -36,6 +36,15 @@ header h2 {
 	margin-top: .75em;
 }
 
+/*----- BANNER STUFF HERE ------*/
+
+#banner {
+	background-image: url(../images/hero-phone.jpg);
+	background-repeat: no-repeat;
+	background-color: #fff;
+	height: 200px;
+}
+
 /*----- NAVIGATION STUFF HERE ------*/
 #navWrapper {
 	background-color: #e61b10;
@@ -149,6 +158,12 @@ nav ul li:first-child a {
 nav ul li.active a {
 	color: #ff7200;
 }*/
+
+#icon {
+	background-image: url(../images/twitter.png);
+	background-repeat: no-repeat;
+	height: 500px;
+}
 
 #footerWrapper {
 	background-color: #979791;
