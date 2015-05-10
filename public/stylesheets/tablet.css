@@ -1,11 +1,13 @@
 @media only screen and (min-width: 641px) {
 
 #banner {
-	background-image: url(../images/hero-tablet.jpg);
+	background-image: url(../images/hero1-tablet.jpg);
 	background-repeat: no-repeat;
 	background-color: #fff;
-	height: 200px;
+	height: 400px;
+	width: 1140px;
 }
+
 
 /*---- NAVIGATION STUFF HERE -----*/
 #navWrapper {padding: 0;}
@@ -43,4 +45,20 @@ nav ul li.active a {
 	background: #ff7200;
 }
 
+/*---- CONTENT -----*/
+
+/*---- COLUMNS -----*/
+
+.column-6, .column-4, .column-3 {
+	float: left;
+}
+.column-6 {
+	width: 50%;
+}
+.column-4 {
+	width: 33.3%;
+}
+.column-3 {
+	width: 25%;
+}
 }

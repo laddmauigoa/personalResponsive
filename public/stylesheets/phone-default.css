@@ -11,9 +11,6 @@ body {
 	font-weight: 300; /* also loaded 600 for bold*/
 }
 
-p {
-	margin-left: 2%;
-}
 
 /*----- HEADER -----*/
 #headerWrapper {
@@ -39,11 +36,15 @@ header h2 {
 /*----- BANNER STUFF HERE ------*/
 
 #banner {
-	background-image: url(../images/hero-phone.jpg);
+	background-image: url(../images/hero2-phone.jpg);
 	background-repeat: no-repeat;
 	background-color: #fff;
 	height: 200px;
+	
 }
+
+
+
 
 /*----- NAVIGATION STUFF HERE ------*/
 #navWrapper {
@@ -89,6 +90,75 @@ nav ul li:first-child a {
 
 nav ul li.active a {
 	color: #ff7200;
+}
+
+/*----- CONTENT ------*/
+
+#contentWrapper {
+	background-color: #fff;
+}
+#contentWrapper .row {
+	
+}
+#contentWrapper .row:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+#contentWrapper h1 {
+	color: #e22121;
+	font-size: 2em;
+	padding-top: 1em;
+	text-shadow: 1px 1px 2px #999;
+}
+
+
+
+/*----- COLUMNS ------*/
+.column-12, .column-6, .column-4, .column-3 {
+	padding: .5em 2%;
+}
+.color-1, .color-2 {
+	padding: .4em 1em .5em 1em;
+}
+.color-1 {
+	background-color: #f9f8c1;
+}
+
+.color-2 {
+	background-color: #ffddc1;
+}
+
+
+
+#icon {
+	background-image: url(../images/twitter.png);
+	background-repeat: no-repeat;
+	height: 500px;
+}
+
+
+#footerWrapper {
+	background-color: #979791;
+}
+footer {
+	clear: both;
+	font-size: .7em;
+	color: #fff;
+	text-align: center;
+	padding: .5em;
+}
+/* color of footer link*/
+footer a {
+	color: #fff;
+}
+
+/*----- CLEARFIX ------*/
+.clearfix:after {
+	content: '';
+	display: table;
+	clear: both;
 }
 
 /*nav ul {
@@ -158,31 +228,3 @@ nav ul li:first-child a {
 nav ul li.active a {
 	color: #ff7200;
 }*/
-
-#icon {
-	background-image: url(../images/twitter.png);
-	background-repeat: no-repeat;
-	height: 500px;
-}
-
-#footerWrapper {
-	background-color: #979791;
-}
-footer {
-	clear: both;
-	font-size: .7em;
-	color: #fff;
-	text-align: center;
-	padding: .5em;
-}
-/* color of footer link*/
-footer a {
-	color: #fff;
-}
-
-/*----- CLEARFIX ------*/
-.clearfix:after {
-	content: '';
-	display: table;
-	clear: both;
-}
