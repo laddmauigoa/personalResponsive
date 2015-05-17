@@ -98,9 +98,7 @@ nav ul li.active a {
 #contentWrapper {
 	background-color: #fff;
 }
-#contentWrapper .row {
-	
-}
+
 #contentWrapper .row:after {
 	content: '';
 	display: table;
@@ -114,12 +112,15 @@ nav ul li.active a {
 	text-shadow: 1px 1px 2px #999;
 }
 
-
+.titles {
+	padding: .75em 2%;
+}
 
 /*----- COLUMNS ------*/
 .column-12, .column-6, .column-4, .column-3 {
 	padding: .5em 2%;
 }
+
 .color-1, .color-2 {
 	padding: .4em 1em .5em 1em;
 }
@@ -132,17 +133,15 @@ nav ul li.active a {
 }
 
 /*----- list styling------*/
-.column-6 {
+.column-6 * {
 	border-radius: 1em;
 }
-.column-6 p {
-	background-color: #1D0259;
-	border-radius: 1em;
-	padding: 1em;
+.column-6 .aboutPara {
+	background-color: #f9f8c1;
+	padding: .75em 2%;
 }
-
 .column-6 .skills {
-	background-color: #D9C873;
+	background-color: #ffddc1;
 	border-radius: 1em;
 }
 
@@ -150,7 +149,6 @@ nav ul li.active a {
 .skills {
 	list-style: circle inside none;
 	padding: .75em 2%;
-	
 }
 
 #icon {
