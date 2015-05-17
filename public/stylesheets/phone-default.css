@@ -14,7 +14,7 @@ body {
 
 /*----- HEADER -----*/
 #headerWrapper {
-	background-color: #3B4044;
+	background-color: #371C4F;
 }
 
 header {
@@ -48,7 +48,7 @@ header h2 {
 
 /*----- NAVIGATION STUFF HERE ------*/
 #navWrapper {
-	background-color: #e61b10;
+	background-color: #A62F03;
 	padding: .75em 2%;
 }
 
@@ -72,6 +72,7 @@ nav ul {
 	border-radius: .5em;
 	margin: .5em 2%;
 	background-color: rgba(255,255,255,0.8);
+
 }
 
 nav ul li a {
@@ -79,9 +80,9 @@ nav ul li a {
 	text-align: center;
 	padding: .6em;
 	border-top: 1px #ccc solid;
-	color: #000;
-	text-decoration: none;
+	color: white;
 	font-weight: 600;
+	text-decoration: none; 
 }
 
 nav ul li:first-child a {
@@ -130,7 +131,27 @@ nav ul li.active a {
 	background-color: #ffddc1;
 }
 
+/*----- list styling------*/
+.column-6 {
+	border-radius: 1em;
+}
+.column-6 p {
+	background-color: #1D0259;
+	border-radius: 1em;
+	padding: 1em;
+}
 
+.column-6 .skills {
+	background-color: #D9C873;
+	border-radius: 1em;
+}
+
+
+.skills {
+	list-style: circle inside none;
+	padding: .75em 2%;
+	
+}
 
 #icon {
 	background-image: url(../images/twitter.png);
