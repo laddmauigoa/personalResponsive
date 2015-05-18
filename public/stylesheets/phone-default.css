@@ -139,9 +139,10 @@ nav ul li.active a {
 .column-6 .aboutPara {
 	background-color: #f9f8c1;
 	padding: .75em 2%;
+	font-size: 1.5em;
 }
 .column-6 .skills {
-	background-color: #ffddc1;
+	
 	border-radius: 1em;
 }
 
@@ -149,8 +150,14 @@ nav ul li.active a {
 .skills {
 	list-style: circle inside none;
 	padding: .75em 2%;
+	background-color: #ffddc1;
+	font-size: 1.1em;
 }
 
+.column-6 ul li {
+	width: 50%;
+	float: left;
+}
 #icon {
 	background-image: url(../images/twitter.png);
 	background-repeat: no-repeat;
@@ -210,6 +217,7 @@ nav ul li a {
 nav ul li:last-child a {
 	border-right: none;
 }
+
 
 
 
