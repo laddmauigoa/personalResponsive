@@ -46,52 +46,6 @@ header h2 {
 
 
 
-/*----- NAVIGATION STUFF HERE ------*/
-/*#navWrapper {
-	background-color: #A62F03;
-	padding: .75em 2%;
-}
-
-ul#myNav {
-	display: none;
-}
-
-button#showPhoneNav {
-	color: #fff;
-	font-weight: 600;
-	display: block;
-	border: 1px solid #222;
-	border-radius: 1.5em;
-	background-color: rgba(0,0,0,0.6);
-	width: 100%;
-	padding: .75em 0;
-}
-
-nav ul {
-	border: 1px #ccc solid;
-	border-radius: .5em;
-	margin: .5em 2%;
-	background-color: rgba(255,255,255,0.8);
-
-}
-
-nav ul li a {
-	display: block;
-	text-align: center;
-	padding: .6em;
-	border-top: 1px #ccc solid;
-	color: white;
-	font-weight: 600;
-	text-decoration: none; 
-}
-
-nav ul li:first-child a {
-	border-top: none;
-}
-
-nav ul li.active a {
-	color: #ff7200;
-}*/
 
 /*----- CONTENT ------*/
 
@@ -219,8 +173,20 @@ nav ul li:last-child a {
 }
 
 
+/*-- project picture --*/
 
 
+#fotoverse {
+	background-image: url(../images/fotoverse-phone.jpg);
+	height: 200px;
+	background-repeat: no-repeat;
+
+}
+
+
+.projectP {
+	font-size: 1.1em;
+}
 
 
 
@@ -284,6 +250,53 @@ nav ul li a {
 	color: #000;
 	text-decoration: none;
 	font-weight: 600;
+}
+
+nav ul li:first-child a {
+	border-top: none;
+}
+
+nav ul li.active a {
+	color: #ff7200;
+}*/
+
+/*----- NAVIGATION STUFF HERE ------*/
+/*#navWrapper {
+	background-color: #A62F03;
+	padding: .75em 2%;
+}
+
+ul#myNav {
+	display: none;
+}
+
+button#showPhoneNav {
+	color: #fff;
+	font-weight: 600;
+	display: block;
+	border: 1px solid #222;
+	border-radius: 1.5em;
+	background-color: rgba(0,0,0,0.6);
+	width: 100%;
+	padding: .75em 0;
+}
+
+nav ul {
+	border: 1px #ccc solid;
+	border-radius: .5em;
+	margin: .5em 2%;
+	background-color: rgba(255,255,255,0.8);
+
+}
+
+nav ul li a {
+	display: block;
+	text-align: center;
+	padding: .6em;
+	border-top: 1px #ccc solid;
+	color: white;
+	font-weight: 600;
+	text-decoration: none; 
 }
 
 nav ul li:first-child a {

@@ -12,7 +12,10 @@
 	height: 500px;
 	}
 
-	
+	#fotoverse {
+	background-image: url(../images/fotoverse-desktop.jpg);
+	height: 500px;
+}
 
 	nav ul {
 		padding-left: 1%;
