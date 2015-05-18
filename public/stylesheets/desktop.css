@@ -29,5 +29,11 @@
 		background-color: rgba(0,0,0,0.4);	
 	}
 
+/* Content */
+
+.column-6 {
+	float: none;
+	margin: 0 auto;
+}
 
 }
